@@ -10,6 +10,7 @@ import java.util.concurrent.TimeUnit;
 
 import rx.Observable;
 import rx.android.schedulers.AndroidSchedulers;
+import rx.functions.Action1;
 import rx.schedulers.Schedulers;
 
 public class MainActivity extends AppCompatActivity {
@@ -23,8 +24,11 @@ public class MainActivity extends AppCompatActivity {
         Observable.fromCallable(new CallableLongAction("5"))
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
-                .subscribe(integer -> {
-                    Log.d(LOG_TAG, "onNext: " + integer);
+                .subscribe(new Action1<Integer>() {
+                    @Override
+                    public void call(Integer integer) {
+                        Log.d(LOG_TAG, "onNext: " + integer);
+                    }
                 });
     }
 
