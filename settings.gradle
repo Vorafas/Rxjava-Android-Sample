@@ -1,2 +1,3 @@
+include ':rxjavaaction'
 include ':app'
 rootProject.name = "RxjavaSample"
