@@ -1,3 +1,4 @@
+include ':rxjavatake'
 include ':rxjavabuffer'
 include ':rxjavamap'
 include ':rxjavaoperator'
