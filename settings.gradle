@@ -1,3 +1,4 @@
+include ':rxjavatakeuntil'
 include ':rxjavazipwith'
 include ':rxjavamergewith'
 include ':rxjavafilter'
