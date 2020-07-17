@@ -1,3 +1,4 @@
+include ':rxjavaten'
 include ':rxjavatakeuntil'
 include ':rxjavazipwith'
 include ':rxjavamergewith'
