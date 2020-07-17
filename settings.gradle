@@ -1,3 +1,4 @@
+include ':rxjavadistinct'
 include ':rxjavaskip'
 include ':rxjavatake'
 include ':rxjavabuffer'
