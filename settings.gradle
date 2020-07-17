@@ -1,3 +1,4 @@
+include ':rxjavazipwith'
 include ':rxjavamergewith'
 include ':rxjavafilter'
 include ':rxjavadistinct'
