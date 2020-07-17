@@ -1,8 +1,8 @@
 # Rxjava-Android-Sample
 Learning RxJava for Android by example
 
-```
 **map**          
+```
 Оператор map преобразует все элементы последовательности.
 ```
       
